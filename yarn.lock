@@ -2109,10 +2109,9 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
-android-fastboot@^1.0.7:
+"android-fastboot@https://github.com/Foxtrot47/fastboot.js":
   version "1.1.1"
-  resolved "https://registry.yarnpkg.com/android-fastboot/-/android-fastboot-1.1.1.tgz#6a975842b2076b389cb30e0e6f80e559a1636d91"
-  integrity sha512-6MCqRarUfyOV68R9pNKNPMlIDLE/qJju2nhi/Jul+Juw7sqYnjwHDA9EGz3UY55tmlYeMc44jTBGcSY1zjTEdw==
+  resolved "https://github.com/Foxtrot47/fastboot.js#fc8bb674ee077436b3f409c699cd8ab2897e60cc"
   dependencies:
     "@zip.js/zip.js" "2.2.27"
 
