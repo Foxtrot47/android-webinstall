@@ -1,7 +1,16 @@
 export default {
     OS_NAME: process.env.VUE_APP_OS_NAME,
     ACCENT_COLOR: "#0366d6",
-    SUPPORTED_DEVICES: [],
+    SUPPORTED_DEVICES: [
+        {
+            name: "POCO X3 Pro(Indian Variant)",
+            model: "bhima",
+        },
+        {
+            name: "POCO X3 Pro(Global Variant)",
+            model: "vayu"
+        }
+    ],
     RELEASE_VARIANTS: {
         minimal: {
             description: "Minimal version without Google apps or services.",
